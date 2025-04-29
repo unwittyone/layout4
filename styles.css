@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 400px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.green-box {
+    border: 3px solid green;
+    width: 50%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.long-box {
+    border: 3px solid gray;
+    width: 75%;
+    height: 115px;
+}
+
+.red-box {
+    border: 3px solid red;
+    width: 75%;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.small-box {
+    border: 3px solid gray;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.half-box {
+    border: 3px solid gray;
+    width: 50%
+    height: 75%;
+}
